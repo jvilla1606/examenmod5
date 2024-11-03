@@ -1,0 +1,36 @@
+/* Estilos para navegación */
+.character-section {
+    cursor: pointer;
+    padding: 10px;
+    /*border: 1px solid #ccc;
+    margin: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s;*/
+  }
+  .character-section:hover {
+    background-color: #f8f9fa;
+  }
+  
+  /* Contenedor de rango de personajes */
+  .character-range {
+    margin-bottom: 20px;
+  }
+  .character-range h5 {
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contenedor de personajes dentro de cada rango */
+  .character-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .character-card {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: calc(33% - 20px); /* Tres personajes por fila */
+    box-sizing: border-box;
+  }

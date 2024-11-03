@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars Characters Viewer</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="container">
+
+  <h1 class="text-center my-4">Star Wars Characters Viewer</h1>
+
+  <div class="row">
+    <!-- Navegación por rango -->
+    <div class="col-md-3">
+      <div class="navigation"> 
+       <div class="character-section" data-range="1-5">1 - 5</div>
+        <div class="character-section" data-range="6-11">6 - 11</div>
+        <div class="character-section" data-range="12-17">12 - 17</div>
+      </div>
+    </div>
+
+    <!-- Contenedores fijos para cada sección de personajes -->
+    <div class="col-md-9" id="character-info-container">
+      <!-- Sección 1-5 -->
+      <div class="character-range" id="range-1-5">
+        <h5>En esta sección... Personajes Principales (1-5)</h5>
+        <h7>Encontrás información sobre los personajes más populares de Star Wars</h7>
+        <div class="character-info" id="characters-1-5"></div>
+      </div>
+
+      <!-- Sección 6-11 -->
+      <div class="character-range" id="range-6-11">
+        <h5>Personajes Secundarios (6-11). En esta sección... </h5>
+        <h7>Encontrás información sobre los personajes secundarios importantes de Star Wars</h7>
+        <div class="character-info" id="characters-6-11"></div>
+      </div>
+
+      <!-- Sección 12-17 -->
+      <div class="character-range" id="range-12-17">
+        <h5>Personajes Significativos (12-17). En esta sección...</h5>
+        <h7>Encontrás información sobre los personajes significativos de Star Wars</h7>
+        <div class="character-info" id="characters-12-17"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
